@@ -91,11 +91,21 @@ main {
     border: solid white 2px;
     border-radius: 10px;
     box-shadow: 6px 3px 3px #ff1bf7;
+    margin-bottom: 25px;
+}
+
+.event a {
+    color: #1c5ffe;
+}
+
+.event a:hover {
+    color: #ff1bf7;
 }
 
 .event img {
-    height: 200px;
+    height: 195px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 @media (max-width: 930px) {
